@@ -244,17 +244,15 @@ h1 {
     margin-top: 45px; }
 
 .page4 {
-  max-width: 985px;
+  width: 100%;
+  position: relative;
+  padding: 42px 0px;
   margin: 0 auto; }
   .page4 img {
-    float: left;
-    margin-right: 19px; }
+    float: right; }
   .page4 p {
-    padding-left: 20px;
-    margin-left: 419px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: block;
+    padding-left: 15px;
+    padding-top: 20px;
     line-height: 25px;
     width: 455px;
     font-size: 15px; }
