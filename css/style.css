@@ -249,13 +249,29 @@ h1 {
   padding: 42px 0px;
   margin: 0 auto; }
   .page4 img {
-    float: right; }
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin-left: 40px; }
   .page4 p {
     padding-left: 15px;
     padding-top: 20px;
     line-height: 25px;
     width: 455px;
     font-size: 15px; }
+  .page4 h1:before {
+    position: absolute;
+    left: -125px;
+    top: 5px;
+    content: url(../img/circle.png); }
+  .page4 h1:after {
+    position: absolute;
+    left: -85px;
+    top: 25px;
+    border-bottom: 1px solid #DAD0BA;
+    width: 100px;
+    content: ""; }
 
 .icon-box {
   width: 59px;
