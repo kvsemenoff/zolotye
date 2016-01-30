@@ -1,0 +1,102 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	
+	.contact-box{
+		text-align: center !important;
+
+	}
+	.logo{
+		display: block !important;
+		margin: 0 auto !important;
+
+	}
+	.header nav ul li{
+	    display: block !important;
+	    float: none !important;
+	    clear: both !important;
+	    margin: 0 auto !important;
+	    text-align: center !important;
+	    
+	}
+	.page1 {
+		text-align: center;
+
+	}
+	.page1 .text{
+		font-size: 35px !important;
+		padding-top: 50px !important;
+	}
+	h1{
+		font-size: 20px !important;
+		white-space: pre-wrap !important;
+	}
+	.page3 .text{
+		
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+
+	
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	
+	
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.logo{
+		position: absolute !important;
+		top: 0px;
+		left: 0px;
+	}
+	.page2 .about{
+		width: 502px !important;
+		height: 388px !important;
+		background: url(../img/ramka.png) center center no-repeat, #fff;
+		overflow: hidden;
+		
+	}
+}
