@@ -413,6 +413,45 @@ h1 {
       position: relative;
       top: 25px; }
 
+.page7 {
+  width: 100%;
+  position: relative;
+  padding: 42px 0px;
+  margin: 0 auto;
+  background-color: #f4f1ea; }
+  .page7 h1 {
+    margin-bottom: 20px; }
+  .page7 img {
+    position: relative;
+    z-index: 1;
+    border: 2px solid #DAD0BA; }
+  .page7 .but {
+    text-align: center;
+    margin: 10px 0px; }
+  .page7 .invest-box {
+    z-index: 0;
+    padding-left: 260px;
+    padding-top: 20px;
+    position: relative;
+    left: -250px;
+    top: 30px;
+    outline: 1px solid #dad0ba;
+    width: 700px;
+    height: 460px; }
+    .page7 .invest-box ul {
+      list-style-image: url(../img/li.png);
+      /* Путь к изображению маркера */
+      padding-left: 40px; }
+    .page7 .invest-box .invest-box-title {
+      padding: 0px 7px;
+      font-size: 16px;
+      color: #846219;
+      text-transform: uppercase;
+      position: absolute;
+      top: -15px;
+      left: 380px;
+      background-color: #f4f1ea; }
+
 .icon-box {
   width: 59px;
   height: 59px;
