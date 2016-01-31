@@ -7,8 +7,24 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	#pred-box-1{
+		margin-bottom: 150px !important;
+	}
 	
-	
+	.invest-box{
+		left: 0 !important;
+		padding: 20px 20px !important;
+		
+	}
+	.owl-theme .owl-controls .owl-buttons .owl-prev:before{
+        left: -100px !important;
+    }
+    .owl-theme .owl-controls .owl-buttons .owl-next:before{
+        right: -100px !important;
+    }
+	.invest-box-title{
+		left: 40% !important;
+	}
 	.contact-box{
 		text-align: center !important;
 

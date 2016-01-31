@@ -377,7 +377,8 @@ h1 {
     height: auto;
     display: block;
     margin-bottom: 20px;
-    margin-left: 40px; }
+    margin-left: 40px;
+    margin: 0 auto; }
   .page4 p {
     padding-left: 15px;
     line-height: 25px;
@@ -464,9 +465,14 @@ h1 {
   .page7 h1 {
     margin-bottom: 20px; }
   .page7 img {
+    width: 100%;
+    max-width: 456px;
+    height: auto;
+    display: block;
     position: relative;
     z-index: 1;
-    border: 2px solid #DAD0BA; }
+    border: 2px solid #DAD0BA;
+    margin: 0 auto; }
   .page7 .but {
     text-align: center;
     margin: 10px 0px; }
@@ -479,7 +485,8 @@ h1 {
     top: 30px;
     outline: 1px solid #dad0ba;
     width: 700px;
-    height: 460px; }
+    height: 460px;
+    margin: 0 auto; }
     .page7 .invest-box ul {
       list-style-image: url(../img/li.png);
       /* Путь к изображению маркера */

@@ -361,6 +361,7 @@ h1{
        display: block;
        margin-bottom: 20px;
        margin-left: 40px;
+       margin: 0 auto;
     }
     p{
         padding-left: 15px;
@@ -465,9 +466,14 @@ h1{
         margin-bottom: 20px;
     }
     img{
+        width: 100%;
+        max-width: 456px;
+        height: auto;
+        display: block;
         position: relative;
         z-index: 1;
         border: 2px solid #DAD0BA;
+        margin: 0 auto;
     }
     .but{
             text-align: center;
@@ -483,6 +489,7 @@ h1{
         outline: 1px solid #dad0ba;
         width: 700px;
         height: 460px;
+        margin: 0 auto;
         ul{
             list-style-image: url(../img/li.png); /* Путь к изображению маркера */
             padding-left: 40px;
