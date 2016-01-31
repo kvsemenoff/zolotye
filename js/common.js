@@ -1,5 +1,20 @@
 $(document).ready(function() {
 
+    
+
+  $("#owl-demo").owlCarousel({
+   
+        autoPlay: 3000, //Set AutoPlay to 3 seconds
+        navigation : true,
+        items : 6,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [979,3],
+        navigationText: true
+   
+    });
+ 
+
+
 
   $('a[name=modal-thanks]').click(function(e) {
     e.preventDefault();

@@ -497,7 +497,7 @@ h1 {
 .page8 {
   width: 100%;
   padding: 42px 0px;
-  min-height: 616px;
+  min-height: 516px;
   background: url(../img/page8.jpg) top center no-repeat;
   margin-top: -5px;
   color: #ffffff;
@@ -580,6 +580,50 @@ h1 {
   .icon-box img {
     display: block;
     margin: 0 auto; }
+
+.page9 {
+  padding: 42px 0px;
+  position: relative; }
+  .page9 h1 {
+    margin-bottom: 20px; }
+  .page9 #owl-demo .item {
+    margin: 3px; }
+  .page9 #owl-demo .item img {
+    display: block;
+    width: 100%;
+    height: auto; }
+  .page9 .owl-buttons {
+    position: relative;
+    top: -175px; }
+  .page9 .owl-theme .owl-controls .owl-buttons .owl-prev {
+    position: relative; }
+  .page9 .owl-theme .owl-controls .owl-buttons .owl-prev:before {
+    position: relative;
+    content: url(../img/nazad-m.png);
+    left: -400px; }
+  .page9 .owl-theme .owl-controls .owl-buttons .owl-next {
+    position: relative; }
+  .page9 .owl-theme .owl-controls .owl-buttons .owl-next:before {
+    position: relative;
+    content: url(../img/vper-m.png);
+    right: -400px; }
+  .page9 .owl-theme .owl-controls .owl-page span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 5px 7px;
+    filter: Alpha(Opacity=50);
+    /*IE7 fix*/
+    opacity: 1;
+    outline: 1px solid #e4ad36;
+    background: #fff; }
+  .page9 .owl-theme .owl-controls .owl-page.active span,
+  .page9 .owl-theme .owl-controls.clickable .owl-page:hover span {
+    filter: Alpha(Opacity=100);
+    /*IE7 fix*/
+    opacity: 1;
+    background: #e4ad36;
+    background: url(../img/slider-bg.png) no-repeat center; }
 
 .geo-box {
   text-align: center;
