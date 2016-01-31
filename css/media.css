@@ -16,6 +16,16 @@
 		padding: 20px 20px !important;
 		
 	}
+	.contact-box{
+		height: 130px !important; 
+	}
+	.p10-box{
+		text-align: center !important;
+	}
+	.p11-title{
+		text-align: center !important;
+		
+	}
 	.owl-theme .owl-controls .owl-buttons .owl-prev:before{
         left: -100px !important;
     }

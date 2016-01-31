@@ -362,14 +362,20 @@ h1 {
   width: 100%;
   position: relative;
   padding: 42px 0px;
+  padding-bottom: 0px;
   background: #f4f1ea; }
   .futures .button-2 {
     margin-top: 45px; }
+  .futures .page5-bg {
+    margin-top: 42px;
+    background: url(../img/page4-bg-b.png) no-repeat;
+    min-height: 12px; }
 
 .page4 {
   width: 100%;
   position: relative;
   padding: 42px 0px;
+  padding-bottom: 0;
   margin: 0 auto; }
   .page4 img {
     width: 100%;
@@ -395,13 +401,17 @@ h1 {
     border-bottom: 1px solid #DAD0BA;
     width: 80px;
     content: ""; }
+  .page4 .page4-bg {
+    margin-top: 42px;
+    background: url(../img/page4-bg.png) no-repeat;
+    min-height: 12px; }
 
 .page5 {
   width: 100%;
   position: relative;
   padding: 42px 0px;
   margin: 0 auto;
-  margin-bottom: 135px; }
+  margin-bottom: 90px; }
   .page5 ul {
     list-style-image: url(../img/li.png);
     /* Путь к изображению маркера */
@@ -448,6 +458,7 @@ h1 {
   width: 100%;
   position: relative;
   padding: 42px 0px;
+  padding-bottom: 120px;
   margin: 0 auto; }
   .page6 .parking-box {
     margin-top: 40px;
@@ -455,11 +466,17 @@ h1 {
     .page6 .parking-box a {
       position: relative;
       top: 25px; }
+  .page6 .page6-bg-t {
+    margin-bottom: 42px;
+    background: url(../img/page6-bg-t.png) no-repeat;
+    min-height: 12px; }
 
 .page7 {
   width: 100%;
   position: relative;
   padding: 42px 0px;
+  padding-top: 0;
+  padding-bottom: 80px;
   margin: 0 auto;
   background-color: #f4f1ea; }
   .page7 h1 {
@@ -500,6 +517,10 @@ h1 {
       top: -15px;
       left: 380px;
       background-color: #f4f1ea; }
+  .page7 .page7-bg-t {
+    margin-bottom: 42px;
+    background: url(../img/page4-bg.png) no-repeat;
+    min-height: 12px; }
 
 .page8 {
   width: 100%;
@@ -690,7 +711,8 @@ h1 {
     margin-bottom: 20px;
     line-height: 35px; }
   .page10 .padding-form {
-    padding-left: 60px; }
+    width: 450px;
+    margin: 0 auto; }
   .page10 .profile img {
     border: 2px solid #dad0ba; }
   .page10 .profile .name {
@@ -705,8 +727,16 @@ h1 {
   .page10 .profile a {
     display: block;
     text-decoration: underline; }
+  .page10 .profile .q-img {
+    width: 136px;
+    height: auto;
+    margin: 0 auto; }
   .page10 .profile .q-right {
-    padding-top: 30px; }
+    padding-left: 35px;
+    padding-top: 30px;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px; }
   .page10 .form-box {
     text-align: center;
     background-color: #f4f1ea;
@@ -801,6 +831,9 @@ h1 {
       text-decoration: underline; }
   .page11 .c-text {
     color: #383836; }
+  .page11 .cart-box {
+    width: 450px;
+    margin: 0 auto; }
 
 .geo-box {
   text-align: center;

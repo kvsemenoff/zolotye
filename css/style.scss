@@ -343,9 +343,15 @@ h1{
     width: 100%;
     position: relative;
     padding: 42px 0px;
+    padding-bottom: 0px;
     background: #f4f1ea;
     .button-2{
         margin-top: 45px;
+    }
+    .page5-bg{
+        margin-top: 42px;
+        background: url(../img/page4-bg-b.png) no-repeat;
+        min-height: 12px;
     }
 }
 
@@ -353,6 +359,7 @@ h1{
     width: 100%;
     position: relative;
     padding: 42px 0px;
+    padding-bottom: 0;
     margin: 0 auto;
     img{
        width: 100%;
@@ -383,6 +390,11 @@ h1{
         width: 80px;
         content: ('');
     }
+    .page4-bg{
+        margin-top: 42px;
+        background: url(../img/page4-bg.png) no-repeat;
+        min-height: 12px;
+    }
     
 }
 
@@ -391,7 +403,7 @@ h1{
     position: relative;
     padding: 42px 0px;
     margin: 0 auto;
-    margin-bottom: 135px;
+    margin-bottom: 90px;
     ul{
     list-style-image: url(../img/li.png); /* Путь к изображению маркера */
     padding-left: 40px;
@@ -445,6 +457,7 @@ h1{
     width: 100%;
     position: relative;
     padding: 42px 0px;
+    padding-bottom: 120px;
     margin: 0 auto;
     .parking-box{
         margin-top: 40px;
@@ -454,12 +467,19 @@ h1{
             top: 25px;
         }
     }
+    .page6-bg-t{
+        margin-bottom: 42px;
+        background: url(../img/page6-bg-t.png) no-repeat;
+        min-height: 12px;
+    }
 
 }
 .page7{
     width: 100%;
     position: relative;
     padding: 42px 0px;
+    padding-top: 0;
+    padding-bottom: 80px;
     margin: 0 auto;
     background-color: #f4f1ea;
     h1{
@@ -504,6 +524,11 @@ h1{
             left: 380px;
             background-color: #f4f1ea;
         }
+    }
+    .page7-bg-t{
+        margin-bottom: 42px;
+        background: url(../img/page4-bg.png) no-repeat;
+        min-height: 12px;
     }
 }
 .page8{
@@ -701,7 +726,9 @@ h1{
         line-height: 35px;
     }
     .padding-form{
-        padding-left: 60px;
+        //padding-left: 60px;
+        width: 450px;
+        margin: 0 auto;
     }
     .profile{
         img{
@@ -723,8 +750,17 @@ h1{
             text-decoration: underline;
             
         }
+        .q-img{
+            width: 136px;
+            height: auto;
+            margin: 0 auto;
+        }
         .q-right{
+            padding-left: 35px;
             padding-top: 30px;
+            width: 300px;
+            margin: 0 auto;
+            margin-bottom: 20px;
         }
     }
     .form-box{
@@ -828,6 +864,11 @@ h1{
     .c-text{
         color: #383836;
     }
+    .cart-box{
+        width: 450px;
+        margin: 0 auto;
+    }
+
 }
 .geo-box{
     text-align: center;
