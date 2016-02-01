@@ -24,6 +24,7 @@
 	<link rel="icon" href="favicon.ico">
 </head>
 <body>
+
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
 	<script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -33,6 +34,7 @@
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/owl-carousel/owl.carousel.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+	
 	<script src="js/common.js"></script>
 	
 	<section class="header">
@@ -44,21 +46,22 @@
 				<div class="col-md-7 col-sm-12 col-xs-12">
 					<nav>
 						<ul>
-							<li><a href="#">О комлексе</a></li>
-							<li><a href="#">Паркинг</a></li>
-							<li><a href="#">Инвестиционные кейсы</a></li>
-							<li><a href="#">Контакты</a></li>
+							<li><a href="#about">О комлексе</a></li>
+							<li><a href="#parking">Паркинг</a></li>
+							<li><a href="#cases">Инвестиционные кейсы</a></li>
+							<li><a href="#contacts">Контакты</a></li>
 						</ul>
 						<div class="clear"></div>		
 					</nav>
 				</div>
 				<div class="col-md-3 col-sm-12 col-xs-12 contact-box">
 					<span class="tel">+7 985 246-35-65</span> 
-					<a href="#" class="call">Заказать обратный звонок</a>
+					<a href="#zvonok" name="modal-zvonok" class="call">Заказать обратный звонок</a>
 				</div>
 			</div>	
 		</div>
-		<div class="krivaya1"></div>
+		<div class="header-line-bottom"></div>	
+		
 	</section>
 	
 	<section class="page1">
@@ -67,13 +70,16 @@
 				<div class="col-md-12">
 					<p class="text">Машиноместа <br>в VIP-паркинге<br></p>
  					<p class="sub-text">в комплексе премиум класса Золотые Ключи – 2</p>
-					<a href="#" class="button-1">оставить заявку</a>
+					<a href="#zayavka" name="modal-zvonok" class="button-1">оставить заявку</a>
 				</div>
 			</div>	
-		</div>					
+		</div>	
+
 	</section>
+	
 
 	<section class="page2">
+		<a name="about"></a>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
@@ -132,11 +138,20 @@
 					</div>
 				</div>
 				<div class="col-md-12" style="text-align:center;">
-					<a href="#" class="button-2">Узнать подробнее</a>
+					<a href="#zayavka" name="modal-zvonok" class="button-2">Узнать подробнее</a>
 				</div>
 			</div>	
 		</div>					
 	</section>
+
+	<section class="map">
+		<div class="map-box">
+			<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=hrT-u2UsUix4kBZwaEH0TNbVDVM74Ge-&width=100%&height=400&lang=ru_RU&sourceType=constructor"></script>
+			<div class="line-top"></div>
+			<div class="line-bottom"></div>
+		</div>	
+		
+	</section>	
 
 	<section class="page4">
 		<div class="container">
@@ -219,7 +234,7 @@
 					</div>
 				</div>
 				<div class="col-md-12">
-					<a href="#" class="button-2">Узнать подробнее</a> <!-- ввв -->
+					<a href="#zayavka" name="modal-zvonok" class="button-2">Узнать подробнее</a> 
 				</div>
 			</div>	
 		</div>		
@@ -239,7 +254,7 @@
 						<ul>
 							<li>рыночная стоимость за одно машиноместо</li>
 							<li>удобный въезд в паркинг 
-							<br>VIP машиноместа с персональной охраной и видеонаблюдением</li>
+							<br>VIP машиноместа с персональной охраной и видеонаблюдением</li>
 							<li>большая площадь машиноместа 17 кв.м.</li>
 							<li>вход в жилую секцию из паркинга</li>
 						</ul>
@@ -258,7 +273,7 @@
 							<li>большая площадь машиноместа 17 кв.м. </li>
 							<li>охрана и видеонаблюдение 24/7</li>
 							<li>отдельный паркинг на 45 машиномест</li>
-							<li>заключение договора аренды от юридического лица</li>
+							<li>заключение договора аренды <br> юридического лица</li>
 						</ul>
 						<div class="but">
 							<a href="#" class="button-3">РАСЧЕТ ОКУПАЕМОСТИ аренда</a>
@@ -269,7 +284,7 @@
 			</div>
 		</div>
 	</section>
-
+	<a name="parking"></a>
 	<section class="page6">
 		<div class="page6-bg-t"></div>
 		<div class="container">
@@ -301,10 +316,12 @@
 						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</section>
-
+	<a name="cases"></a>
+	
 	<section class="page7">
 		<div class="page7-bg-t"></div>
 		<div class="container">
@@ -320,7 +337,7 @@
 						<span class="invest-box-title"> <strong>Для инвесторов</strong></span>
 						<span class="title">Описание</span>
 						<ul>
-							<li>при покупке от 10 машиномест стоимость 1 машиноместа составляет 1 000 000 руб.</li>
+							<li>при покупке от 10 машиномест стоимость машиноместа составляет 1 000 000 руб.</li>
 							<li>ставка доходности от инвестирования 90%, что составляет 25% годовых</li>
 							<li>в будущем возможно продать машиноместа по отдельности при необходимости вернуть какую-то часть вложений
 высокий и стабильный спрос на аренду и покупку </li>
@@ -336,7 +353,7 @@
 			</div>
 		</div>
 	</section>
-
+	
 	<section class="page8">
 		<div class="container">
 			<div class="row">
@@ -346,15 +363,15 @@
 					<span class="txt">Машиноместо в подземном паркинге в подарок! При покупке нежилого помещения</span>
 				</div>
 				<div class="col-md-4 name align-center">
-					<form action="#">
-						<input type="text" placeholder="Введите Ваше имя">
+				<form action="#" class="page8_form">
+					<input type="text" name="uname" placeholder="Введите Ваше имя">
 				</div>
 				<div class="col-md-4 align-center">
-					<input type="text" placeholder="Введите Ваш телефон">
+					<input type="text" name="tel" placeholder="Введите Ваш телефон">
 				</div>
 				<div class="col-md-4 align-center">
-					<input type="submit" name="Submit" value="Оставить заявку" />
-					</form>	
+					<input type="submit" name="Submit" id="page8_form_submit" value="Оставить заявку" />
+				</form>	
 				</div>
 				<div class="col-md-4">
 					<div class="action-box">
@@ -378,63 +395,86 @@
 		</div>
 	</section>
 
+
 	<section class="page9">
 				<div class="align-center">
 					<h1>Галерея</h1>
 				</div>
 				<div id="owl-demo">
-				  <div class="item"><img src="img/owl-1.jpg" alt="Owl Image"></div>
-				  <div class="item"><img src="img/owl-2.jpg" alt="Owl Image"></div>
-				  <div class="item"><img src="img/owl-3.jpg" alt="Owl Image"></div>
-				  <div class="item"><img src="img/owl-4.jpg" alt="Owl Image"></div>
-				  <div class="item"><img src="img/owl-5.jpg" alt="Owl Image"></div>
-				  <div class="item"><img src="img/owl-3.jpg" alt="Owl Image"></div>
-				  <div class="item"><img src="img/owl-1.jpg" alt="Owl Image"></div>
-				  <div class="item"><img src="img/owl-2.jpg" alt="Owl Image"></div>
-				  <div class="item"><img src="img/owl-3.jpg" alt="Owl Image"></div>
-				  <div class="item"><img src="img/owl-4.jpg" alt="Owl Image"></div>
-				  <div class="item"><img src="img/owl-5.jpg" alt="Owl Image"></div>
-				  <div class="item"><img src="img/owl-1.jpg" alt="Owl Image"></div>
-				  <div class="item"><img src="img/owl-3.jpg" alt="Owl Image"></div>
-				  <div class="item"><img src="img/owl-1.jpg" alt="Owl Image"></div>
+				  <div class="item">
+				  		<a href="img/owl-1.jpg" rel="group"><img src="img/owl-1.jpg" alt=""></a>
+				  </div>
+				  <div class="item">
+				  		<a href="img/owl-2.jpg" rel="group"><img src="img/owl-2.jpg" alt=""></a>
+				  </div>
+				  <div class="item">
+				  		<a href="img/owl-4.jpg" rel="group"><img src="img/owl-4.jpg" alt=""></a>
+				  </div>
+				  <div class="item">
+				  		<a href="img/owl-5.jpg" rel="group"><img src="img/owl-5.jpg" alt=""></a>
+				  </div>
+				  <div class="item">
+				  		<a href="img/owl-3.jpg" rel="group"><img src="img/owl-3.jpg" alt=""></a>
+				  </div>
+				  <div class="item">
+				  		<a href="img/owl-2.jpg" rel="group"><img src="img/owl-2.jpg" alt=""></a>
+				  </div>
+				  <div class="item">
+				  		<a href="img/owl-1.jpg" rel="group"><img src="img/owl-1.jpg" alt=""></a>
+				  </div>
+				  <div class="item">
+				  		<a href="img/owl-4.jpg" rel="group"><img src="img/owl-4.jpg" alt=""></a>
+				  </div>
+				  <div class="item">
+				  		<a href="img/owl-5.jpg" rel="group"><img src="img/owl-5.jpg" alt=""></a>
+				  </div>
+				  <div class="item">
+				  		<a href="img/owl-2.jpg" rel="group"><img src="img/owl-1.jpg" alt=""></a>
+				  </div>
+
+				  
 				</div>
 		
 	</section>
 
+	<div class="clearfix"></div>	
+
 	<section class="page10">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 p10-box">
-					<h1 class="q-title">Есть вопросы?</h1>
-					<h2 class="q-text">Наши менеджеры <br> ответят на них</h2>
+				<div class="col-md-6">
+					<span class="q-title">Есть вопросы?</span>
+					<span class="q-text">Наши менеджеры <br> ответят на них</span>
 					<div class="profile">
-						<div class="col-md-5 q-img">
+						<div class="q-img">
 							<img src="img/avatar.jpg" alt="">
 						</div>
-						<div class="col-md-7 q-right">
+						<div class="q-right">
 							<span class="name"><strong>Вячеслав</strong></span>
 							<span class="number"><strong>+7 985 246-35-65</strong></span>
 							<a href="mailto:KirdyashkinVV@aeon-group.ru">KirdyashkinVV@aeon-group.ru</a>
 						</div>
 					</div>
-
 				</div>
-				<div class="col-md-6 padding-form">
+				<div class="col-md-6">
 					<div class="form-box">
 						<span class="form-title"><strong>Получите решение вашего вопроса за 5 минут</strong></span>
-						<form action="#">
-							<div class="col-md-12">
-								<input type="text" placeholder="Введите Ваше имя:">
+						<form action="#" class="page10_form">
+							<div class="row">
+								<div class="col-md-12">
+									<input type="text" name="uname" placeholder="Введите Ваше имя:">
+								</div>
+								<div class="col-md-12">
+									<input type="text" name="tel" placeholder="Введите Ваш телефон:">
+								</div>
+								<div class="col-md-12">
+									<textarea name="text" placeholder="Введите Ваш вопрос:"></textarea>
+								</div>
+								<div class="col-md-12">
+									<input type="submit" name="Submit" id="page10_form_submit" value="Отправить вопрос" />
+								</div>
 							</div>
-							<div class="col-md-12">
-								<input type="text" placeholder="Введите Ваш телефон:">
-							</div>
-							<div class="col-md-12">
-								<textarea name="txtar" placeholder="Введите Ваш вопрос:" cols="35" rows="5"></textarea>
-							</div>
-							<div class="col-md-12">
-								<input type="submit" name="Submit" value="Отправить вопрос" />
-							</div>
+							
 						</form>
 					</div>
 				</div>
@@ -446,11 +486,14 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
-					<div class="cart-box">
-						<img src="img/carta.jpg" alt="">
-					</div>
+					<div class="map-box">
+						<script type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=hrT-u2UsUix4kBZwaEH0TNbVDVM74Ge-&width=100%&height=400&lang=ru_RU&sourceType=constructor"></script>
+						<div class="line-top"></div>
+						<div class="line-bottom"></div>
+					</div>	
 				</div>
 				<div class="col-md-6 p11-title">
+					<a name="contacts"></a>
 					<h1>Контакты</h1>
 					<div class="contact-box">
 						<div class="col-md-2">
@@ -494,6 +537,51 @@
 			</div>
 		</div>
 	</section>
+
+	<div id="mask"></div>
+
+<div id="thanks" class="thanks window2"> 
+	<a href="#" class="close"/></a>
+	<p class="title" id="thanks-title">Спасибо за Вашу заявку!</p> 
+	<p class="cont" id="thanks-cont">Мы свяжемся с Вами в ближайшее время </p>
+</div>
+
+<div id="zvonok" class="zvonok"> 
+	<a href="#" class="close"/></a>
+	<form method="post" action="#" class="zvonok_form">
+		<div class="topline"></div>
+		<p>
+			Заказать звонок
+		</p>
+		<input type="text" placeholder="Как Вас зовут?" name="uname">
+		<input type="text" placeholder="Ваш телефон" name="tel">
+		<input type="submit" value="ЗАКАЗАТЬ" id="zvonok_form_submit" class="button-2">
+		
+	</form>
+</div>
+
+<div id="zayavka" class="zvonok"> 
+	<a href="#" class="close"/></a>
+	<form method="post" action="#" class="modal-form zayavka_form">
+		<div class="topline"></div>
+		<p>
+			Оставить заявку 
+		</p>
+		<input type="text" placeholder="Как Вас зовут?" name="uname">
+		<input type="text" placeholder="Ваш телефон" name="tel">
+		<input type="submit" value="ОТПРАВИТь" id="zayavka_form_submit" class="button-2">
+		
+	</form>
+</div>
+
+
+<a  href="#thanks" name="modal-thanks"></a>
+<a  href="#thanks-consult" name="modal-thanks"></a>
+<a  href="#thank-spage3_form" name="modal-thanks"></a>
+<a  href="#ocenka" name="modal-thanks"></a>
+<a  href="#zvonok" name="modal-thanks"></a>
+
+
 </body>
 </html>
 

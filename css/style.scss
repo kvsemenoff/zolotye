@@ -232,8 +232,24 @@ h1{
     max-width: 960px;
 }
 .header{
+    width: 100%;
     position: relative;
     z-index: 300;
+    position: fixed;
+    background: #fff;
+    padding-bottom: 25px;
+    .logo{
+        z-index: 80;
+    }
+    .header-line-bottom{
+        width: 100%;
+        position: absolute;
+        bottom: -4px;
+        background: url(../img/krivaya1.png) top center repeat-x;
+        height: 10px;
+        z-index: 50;
+    }
+
 }
 .header nav ul{
     display: block;
@@ -271,7 +287,7 @@ h1{
 }
 .page1{
     width: 100%;
-    min-height: 616px;
+    min-height: 702px;
     background: url(../img/page1.jpg) top center no-repeat;
     margin-top: -5px;
     z-index: 200;
@@ -298,7 +314,7 @@ h1{
     width: 100%;
     min-height: 568px;
     background: url(../img/page2.jpg) top center no-repeat;
-    margin-top: -17px;
+    //margin-top: -17px;
     position: relative;
     z-index: 100;
     .about{
@@ -317,7 +333,8 @@ h1{
         font-family: 'Roboto Slab Light', arial;
         color: #846219;
         font-size: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 25px;
+        margin-top: -18px;
         text-transform: uppercase;
         
     }
@@ -329,7 +346,7 @@ h1{
     position: relative;
     padding: 42px 0px;
     .text{
-        margin-top: 70px;
+        margin-top: 15px;
         text-align: center;
     }
     .za{
@@ -456,7 +473,7 @@ h1{
 .page6{
     width: 100%;
     position: relative;
-    padding: 42px 0px;
+    padding: 52px 0px;
     padding-bottom: 120px;
     margin: 0 auto;
     .parking-box{
@@ -477,9 +494,10 @@ h1{
 .page7{
     width: 100%;
     position: relative;
-    padding: 42px 0px;
+    padding: 52px 0px;
+    padding-top: 72px;
     padding-top: 0;
-    padding-bottom: 80px;
+    
     margin: 0 auto;
     background-color: #f4f1ea;
     h1{
@@ -536,6 +554,7 @@ h1{
     padding: 42px 0px;
     min-height: 516px;
     background: url(../img/page8.jpg) top center no-repeat;
+    background-size: cover;
     margin-top: -5px;
     color: #ffffff;
     position: relative;
@@ -562,7 +581,9 @@ h1{
     }
     .txt{
         display: block;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
+        font-family: "RobotoRegular";
+        font-size: 20px;
     }
     input{
         border: none;
@@ -667,24 +688,24 @@ h1{
       height: auto;
     }
     .owl-buttons{
-        position: relative;
-        top: -190px;
+        
+        //position: absolute;
+        //top: -190px;
     }
-    .owl-theme .owl-controls .owl-buttons .owl-prev{
-        position: relative;
-    }
-    .owl-theme .owl-controls .owl-buttons .owl-prev:before{
-        position: relative;
+   
+    
+    .owl-prev:before{
+        position: absolute;
         content: url(../img/nazad-m.png);
-        left: -400px;
+        left: 5%;
+        top: 60px;
     }
-    .owl-theme .owl-controls .owl-buttons .owl-next{
-         position: relative;
-    }
-    .owl-theme .owl-controls .owl-buttons .owl-next:before{
-        position: relative;
+    
+    .owl-next:before{
+        position: absolute;
         content: url(../img/vper-m.png);
-        right: -400px;
+        left: 90%;
+        top: 60px;
     }
     .owl-theme .owl-controls .owl-page span{
     display: block;
@@ -706,21 +727,29 @@ h1{
     background: url(../img/slider-bg.png) no-repeat center;
 }
 }
+.map{
+    position: relative;
+}
 .page10{
     width: 100%;
     position: relative;
     margin: 0 auto;
+
     .q-title{
+        display: block;
         font-size: 56px;
         font-family: 'Roboto Slab Light', arial;
         color: #846219;
         border: none;
-        padding-left: 14px;
-        margin-bottom: 7px;
+        //padding-left: 14px;
+        margin-bottom: 27px;
+        text-transform: uppercase;
+        
+        white-space: nowrap;
     }
     .q-text{
         font-size: 32px;
-        padding-left: 14px;
+        
         font-family: 'Roboto Slab Light', arial;
         margin-bottom: 20px;
         line-height: 35px;
@@ -731,6 +760,7 @@ h1{
         margin: 0 auto;
     }
     .profile{
+        margin-top: 25px;
         img{
             border: 2px solid #dad0ba;
         }
@@ -739,6 +769,7 @@ h1{
             display: block;
             color: #846219;
             font-size: 18px;
+            margin-top: -15px;
         }
         .number{
             display: block;
@@ -751,11 +782,17 @@ h1{
             
         }
         .q-img{
+            display: table-cell;
+            vertical-align: top;
             width: 136px;
             height: auto;
             margin: 0 auto;
         }
         .q-right{
+            display: table-cell;
+            vertical-align: top;
+
+
             padding-left: 35px;
             padding-top: 30px;
             width: 300px;
@@ -764,11 +801,13 @@ h1{
         }
     }
     .form-box{
+        max-width: 400px;
+        height: 100%;    
         text-align: center;
         background-color: #f4f1ea;
-        height: 420px;
-        width: 400px;
-        padding: 40px 40px;
+        margin: 0 auto;
+    
+        padding: 20px;
         .form-title{
             font-size: 20px;
             text-align: center;
@@ -777,11 +816,12 @@ h1{
         form{
             margin-top: 20px;
             input{
-                margin-bottom: 5px;
+                margin-bottom: 7px;
                 width: 320px;
                 height: 45px;
                 padding-left: 20px;
                 border: 1px solid #dad0ba;
+                text-align: center;
             }
             input[type="submit"]{
 
@@ -809,6 +849,7 @@ h1{
                 margin: 0 auto;
             }
             input[type="submit"]:hover{
+
                 background-image: -moz-linear-gradient(bottom, darken(#e3ad35, 10%) 0%, darken(#ffc64d,10%) 100%); /* gradient overlay */
                 background-image: -o-linear-gradient(bottom, darken(#e3ad35, 10%) 0%, darken(#ffc64d,10%) 100%); /* gradient overlay */
                 background-image: -webkit-linear-gradient(bottom, darken(#e3ad35, 10%) 0%, darken(#ffc64d,10%) 100%); /* gradient overlay */
@@ -817,8 +858,13 @@ h1{
             }
             
             textarea{
+                width: 320px;
+                height: 110px;
                 padding-left: 20px;
+                padding-top: 10px;
                 border: 1px solid #dad0ba;
+                margin-bottom: 10px;
+                text-align: center;
             }
             
             textarea::-webkit-input-placeholder{
@@ -846,7 +892,7 @@ h1{
     }
 }
 .page11{
-    padding: 20px 0px;
+    padding: 50px 0px;
     h1{
         border: none;
     }
@@ -864,10 +910,31 @@ h1{
     .c-text{
         color: #383836;
     }
-    .cart-box{
-        width: 450px;
-        margin: 0 auto;
-    }
+    
+
+}
+.line-top{
+    width: 100%;
+    position: absolute;
+    top: -4px;
+    background: url(../img/krivaya1.png) top center repeat-x;
+    height: 10px;
+}
+.line-bottom{
+    width: 100%;
+    height: 10px;
+    position: absolute;
+    bottom: -4px;
+    background: url(../img/krivaya2.png) top center repeat-x;
+    
+}
+.map{
+    position: relative;
+    width: 100%;
+}
+.map-box{
+    position: relative;
+    width: 100%;
 
 }
 .geo-box{
@@ -924,60 +991,16 @@ h1{
     z-index:9999; 
 }  
 
-.ocenka{ 
+.zvonok{ 
     display: none;
     position:absolute;
     left:0;  
     top:0;
-    width: 798px;
+    width: 356px;
     min-height: 315px;
-    padding: 30px 20px;
     display:none;
     z-index:9999; 
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-    -moz-background-clip: padding;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box; 
-    background-color: #fff; 
-    font-family: "RobotoRegular";
-    font-size: 13px;
-    color: #81868d;
-    strong{
-        font-family: "RobotoBold";
-        color: #000;
-    }
-    i{
-        font-family: "RobotoMedium";
-        font-style: italic;
-        color: #ae5e26;
-    }
-    p{
-        margin-top: 16px;
-        line-height: 16px;
-    }
-
-    .name{
-        display: block;
-        color: #373224;
-        font-family: "RobotoBold";
-        font-size: 26px;
-    }
-    .dol{
-        display: block;
-        color: #e07e27;
-        font-family: "RobotoRegular";
-        font-size: 13px;
-    }
-    .share{
-        display: block;
-    }
-    img{
-        display: block;
-        margin: 10px 0px;
-    }
-    .ocenka_form, .zvonok_form {
+    .zvonok_form, .modal-form{
         position: relative;
         -moz-border-radius: 3px;
         -webkit-border-radius: 3px;
@@ -996,12 +1019,13 @@ h1{
             font-family: "RobotoBlack";
             color: #545454;
             font-size: 14px;
+            text-transform: uppercase;
         }
         input[type="text"]{
             width: 100%;
             margin: 0 auto;
             margin-bottom: 13px;
-            font-family: 'Roboto', sans-serif;
+            font-family: "RobotoRegular";
         }
         input[type="submit"]{
             width: 100%;
@@ -1024,6 +1048,10 @@ h1{
         content: url('../img/close.png'); 
     }
 }  
+
+
+
+
 
 .thanks { 
     display: none;
@@ -1068,6 +1096,7 @@ h1{
     }
 
 }
+
 
 
 
